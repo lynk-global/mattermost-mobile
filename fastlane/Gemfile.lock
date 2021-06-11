@@ -15,7 +15,7 @@ GEM
     domain_name (0.5.20170404)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.2.1)
-    excon (0.59.0)
+    excon (0.82.0)
     faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
     faraday-cookie_jar (0.0.6)
@@ -57,10 +57,6 @@ GEM
       xcodeproj (>= 1.5.0, < 2.0.0)
       xcpretty (>= 0.2.4, < 1.0.0)
       xcpretty-travis-formatter (>= 0.0.3)
-    fastlane-plugin-android_change_package_identifier (0.1.0)
-    fastlane-plugin-android_change_string_app_name (0.1.1)
-      nokogiri
-    fastlane-plugin-find_replace_string (0.1.0)
     gh_inspector (1.0.3)
     google-api-client (0.13.6)
       addressable (~> 2.5, >= 2.5.1)
@@ -141,9 +137,6 @@ PLATFORMS
 
 DEPENDENCIES
   fastlane
-  fastlane-plugin-android_change_package_identifier
-  fastlane-plugin-android_change_string_app_name
-  fastlane-plugin-find_replace_string
   nokogiri
 
 BUNDLED WITH
